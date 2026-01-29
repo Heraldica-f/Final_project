@@ -6,19 +6,21 @@
 - pytest
 - selenium
 - requests
-- _sqlalchemy_
+- allure
+- config
 
 ## Шаблон для автоматизации тестирования на python
 
 ### Шаги
 1. Склонировать проект 'git clone https://github.com/Heraldica-f/Final_project.git'
-2. Установить зависимости
+2. Установить все зависимости
 3. Запустить тесты 'pytest'
 
 ### Библиотеки (!)
 - pyp install pytest
 - pip install selenium
 - pip install webdriver-manager
+- pip install requests
 
 ### Струткура:
 - ./test - тесты
