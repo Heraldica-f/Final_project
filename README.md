@@ -26,7 +26,6 @@
 - ./test - тесты
 - ./pages - описание страниц
 - ./api - хелперы для работы с API
-- ./db - хелперы для работы с БД
 
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
