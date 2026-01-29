@@ -30,7 +30,7 @@ def special_characters_test():
 def lowercase_text_test():
     pass
 
-def uppercase_еуче_test():
+def uppercase_text_test():
     pass
 
 def uppercase_and_lowercase_text_test():
