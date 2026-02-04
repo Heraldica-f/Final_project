@@ -26,7 +26,6 @@ class KinopoiskAPI:
         
         :param title: Название фильма
         :type title: str
-        :return: Описание
         :rtype: Response
         """
         headers: dict[str, str] = {
@@ -50,7 +49,6 @@ class KinopoiskAPI:
         
         :param name: Имя работника киноиндустрии
         :type name: str
-        :return: Описание
         :rtype: Response
         """
         headers: dict[str, str] = {
@@ -74,7 +72,6 @@ class KinopoiskAPI:
         
         :param category: Категория коллекции фильмов
         :type category: str
-        :return: Описание
         :rtype: Response
         """
         headers: dict[str, str] = {
@@ -97,7 +94,6 @@ class KinopoiskAPI:
         
         :param category: Категория коллекции фильмов
         :type category: str
-        :return: 
         :rtype: Response
         """
         headers: dict[str, str] = {
