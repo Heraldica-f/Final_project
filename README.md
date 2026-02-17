@@ -1,4 +1,4 @@
-# Final_project — Автоматизация тестирования Кинопоиска
+# Автоматизация тестирования Кинопоиска
 
 ## Описание проекта
 Проект предназначен для автоматизации:
@@ -23,13 +23,14 @@ UI-тесты помечены как xfail, так как сайт Kinopoisk и
 - allure-pytest
 
 ## Структура проекта
-Final_project/
+Automation_tests_Kinopoisk/
 ├── API/
 │   └── KinopoiskAPI.py
 ├── UI/
 │   └── KinopoiskUI.py
 ├── config/
-│   └── config.py
+│   ├── config.py
+|   └── init.py
 ├── tests/
 │   ├── conftest.py
 │   ├── test_api.py
@@ -39,7 +40,7 @@ Final_project/
 ├── README.md
 
 ### Шаги
-1. Склонировать проект 'git clone https://github.com/Heraldica-f/Final_project.git'
+1. Склонировать проект 'git clone https://github.com/Heraldica-f/Automation_API_and_UI_tests_Kinopoisk.git'
 2. Установить зависимости 'pip install -r requirements.txt'
 3. Создать файл '.env' в корне проекта
 4. Для запуска API-тестов указать в файле '.env' переменную: Kinopoisk_token, где значение Kinopoisk_token - это токен/ключ полученный через Telegram-бот
